@@ -1,1 +1,1 @@
-# Java-GUI
+# This File contains Java GUI projects.
