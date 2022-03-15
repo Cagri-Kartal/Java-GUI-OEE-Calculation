@@ -15,25 +15,25 @@ public class OEEprojectResults {
 				int vardiyaSaatNum,
 				int molaAdetNum,
 				int molaSaatNum,
-				int parcaBasýSureNum,
-				int plansýzDurmaNum){
+				int parcaBasiSureNum,
+				int plansizDurmaNum){
 			
 			System.out.println(
 					vardiyaAdetNum+ " "+
 					vardiyaSaatNum+ " "+
 					molaAdetNum+ " "+
 					molaSaatNum+ " "+
-					parcaBasýSureNum+ " "+
-					plansýzDurmaNum);
+					parcaBasiSureNum+ " "+
+					plansizDurmaNum);
 			
 			double e4 = vardiyaAdetNum*vardiyaSaatNum;
 			double e5 = molaAdetNum*molaSaatNum;
 			double e6 = e4-e5;
-			double e8 = plansýzDurmaNum;
-			double d9 = parcaBasýSureNum;
+			double e8 = plansizDurmaNum;
+			double d9 = parcaBasiSureNum;
 			double e9 = d9/3600;
-			double e16 = 444; // Üretilen Ürün Sayýsý
-			double e17 = 333; // Kaliteli Ürün Sayýsý
+			double e16 = 444; // Ãœretilen ÃœrÃ¼n Sayisi
+			double e17 = 333; // Kaliteli ÃœrÃ¼n Sayisi
 			double e10 = e6-e8;
 
 			double availability = (e10/e4);
